@@ -23,3 +23,5 @@ document.querySelectorAll('input').forEach(input => {
         }
     });
 })
+
+console.log("pip")
