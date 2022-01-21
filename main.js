@@ -64,7 +64,7 @@ document.querySelector('[data-testid="awsc-nav-regions-menu-button"]').insertAdj
 
 /* ------------------------- region Gradient header ------------------------- */
 if (useGradientColor) {
-    document.querySelector("#awsc-navigation-container>div").style.background = graidentColor;
+    document.querySelector("#awsc-navigation-container>div>header>nav").style.background = graidentColor;
 } else {
-    document.querySelector("#awsc-navigation-container>div").style.backgroundColor = color;
+    document.querySelector("#awsc-navigation-container>div>header>nav").style.backgroundColor = color;
 }
